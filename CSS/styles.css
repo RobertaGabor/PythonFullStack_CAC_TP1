@@ -1,0 +1,47 @@
+body
+{
+    background-image: url("../IMG/bg.jpg");
+}
+.top
+{
+    margin: 0 auto; 
+    padding: 0 1 em;
+}
+
+.menu-section{
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid hsl(10, 10%, 10%);
+    border: none !important;
+}
+.menu-simple-menu ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: rgba(250, 25, 175, 0.6);
+}
+.menu-simple-menu ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: .6em 1em;
+    display: block;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+}
+.menu-simple-menu ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu-simple-menu ul li a:hover
+{
+    color: rgb(163, 37, 152);
+}
+.menu-simple-menu ul li a:active
+{
+    color: rgba(61, 238, 229, 0.808);
+}
+
