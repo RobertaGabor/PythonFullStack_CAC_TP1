@@ -7,6 +7,10 @@ body
     margin: 0 auto; 
     padding: 0 1 em;
 }
+.column {
+    display: flex;
+    flex-direction: column;
+}
 
 .menu-section{
     padding-bottom: 2em;
