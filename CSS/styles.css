@@ -44,4 +44,73 @@ body
 {
     color: rgba(61, 238, 229, 0.808);
 }
-
+.titulo1
+{
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    color: ivory;
+}
+.tarjeta a
+{
+    color: ivory;
+    text-decoration: none;
+}
+.tarjeta a:hover
+{
+    box-shadow: 3px 3px 8px hsl(0,0%,70%);
+}
+.tarjeta-contenido
+{
+    padding: 1.4em;
+}
+.tarjeta-contenido h2
+{
+    margin-top: 0;
+    margin-bottom: .5;
+    font-weight: normal;
+}
+.tarjeta-contenido p{
+    font-size: 95%;
+}
+figure{
+    margin: 0;
+}
+img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    border:0;
+}
+/*flexbox*/
+.tarjeta
+{
+    background: rgb(117, 38, 38);
+    margin-bottom: 2em;
+    width: 33%; /*q labure a la 3er parte*/
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.coloreado
+{
+    background-color: rgba(3, 4, 51, 0.6) !important;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+.complementario
+{
+    background-color: rgba(3, 4, 51, 0.6) !important;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    float: right;
+    
+}
