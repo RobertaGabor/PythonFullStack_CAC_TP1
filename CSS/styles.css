@@ -119,3 +119,11 @@ img
     float: right;
     
 }
+i
+{
+    color: rgba(250, 25, 175, 0.6);
+}
+.tarjeta-contenido h2
+{
+    color: white;
+}
