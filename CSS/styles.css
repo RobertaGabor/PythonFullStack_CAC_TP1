@@ -127,3 +127,14 @@ i
 {
     color: white;
 }
+#btn-submit
+{
+    color: rgb(255, 255, 255);
+    background-color: rgba(23, 58, 65, 0.3);
+    border-radius: 15px;
+    border-color: none;
+    border-style: none;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+}
