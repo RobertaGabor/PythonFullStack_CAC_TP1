@@ -76,6 +76,7 @@ body
 }
 .tarjeta-contenido p{
     font-size: 95%;
+    color: white;
 }
 figure{
     margin: 0;
@@ -90,9 +91,9 @@ img
 /*flexbox*/
 .tarjeta
 {
-    background: rgb(117, 38, 38);
+    background: rgb(0, 0, 0);
     margin-bottom: 2em;
-    width: 33%; /*q labure a la 3er parte*/
+    width: 33%;
 }
 .cards
 {
