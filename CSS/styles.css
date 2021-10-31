@@ -138,3 +138,61 @@ i
     box-sizing: border-box;
     padding: 5px;
 }
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  /* ...and then apply it: */
+  .box {
+    animation: slide-in 1000ms;
+    
+  }
+
+  .text_inicio
+  {
+    border: 1px black dashed;
+    background-color: white;
+    font-family: 'Permanent Marker';
+    padding-left: 0.4rem;
+    font-size: 2.1rem;
+    display: inline-block;
+    padding-right: 0.4rem;
+  }
+  #imagen-princ
+  {
+    content: "";
+    width: 396px;
+    height: 482px;
+    margin: auto;
+    background-image: url("../img/Phoebe-Harry-Styles.jpg");
+    background-size: cover !important;
+    animation-name: fade-in;
+    animation-duration: 4s;
+    display: block;
+    
+  }
+  @keyframes fade-in
+  {
+      from{opacity: 0;}
+      to{opacity: 1;}
+  }
+  #Presentacion
+  {
+    width: 39rem;
+    height: 300px;
+    background-color: violet;
+    border: 3px white dashed;
+    animation-name: fade-in;
+    animation-duration: 4s;
+  }
+  #container
+  {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
