@@ -183,12 +183,17 @@ i
   }
   #Presentacion
   {
-    width: 39rem;
+    width: 100%;
+    display: inline-block;
     height: 150px;
     background-color: violet;
     border: 3px white dashed;
     animation-name: fade-in;
     animation-duration: 4s;
+  }
+  #seccion1
+  {
+      width: 50%;
   }
   #present-text
   {
@@ -207,3 +212,12 @@ i
     font-size: 20px;
     margin-bottom: 50px;
 }
+
+@media all and (min-width:350px) and (max-width:1183px){
+#seccion1
+{
+    width: 80%;
+    margin-left: 20px;
+}
+}
+
