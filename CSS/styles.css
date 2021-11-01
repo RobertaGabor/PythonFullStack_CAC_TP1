@@ -219,5 +219,223 @@ i
     width: 80%;
     margin-left: 20px;
 }
+#imagen-prin
+{
+    width: 80%;
+}
+}
+
+/*hs*/
+/* contenido*/
+#contenido_principal{
+    width:960px;
+    height: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+}
+audio
+{
+    width: 100%;
+}
+
+#presentacion2{
+    float:right;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+#titulo_principal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+#contenido_articulo{
+    font-family: helvetica, arial, sans-serif;
+}
+
+#texto_contenido {
+    width: 250px;
+    height:300px;
+    background-color:rgba(245, 68, 216, 0.4);
+
+    float:left;
+    padding: 10px;    margin-bottom:10px;
+    box-sizing: border-box;
+}
+#contenido_segundo{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+}
+
+#imagen2{
+    width: 440px;
+    height:300px;
+    background-color:rgba(195, 68, 245,0.8);
+    float:left;
+    margin-bottom:10px;
+     background-image: url(../IMG/Harry-Styles-2.jpg);
+    background-size: cover;
+    margin-left: 10px;
+}
+
+#destacado{
+    width: 250px;
+    height:300px;
+    background-color:rgba(245, 68, 216, 0.4);
+    float:right;
+    margin-bottom:10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido_destacado{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+}
+
+#complementario{
+    width: 960px;
+    height: 180px;
+    clear: both;
+
+}
+#imagen_aside {
+    width: 960px;
+    height: 180px;
+    background-size: cover;
+}
+
+@media all and (min-width:600px) and (max-width:1023px){
+
+    p{
+        font-size: 12px;
+    }
+    
+    
+    #marca img{
+        width: 400px;
+        float: none;
+        margin-left:auto;
+        margin-right:auto; 
+        text-align: center;
+    }
+    #contenido_principal{
+        width:580px;
+        height: 800px;
+    }
+
+    
+    #presentacion{
+        width: 100%;
+        height:300px;
+    }
+    
+    #titulo_principal{
+        font-size: 25px;
+    }
+
+    #texto_contenido {
+        width: 285px;
+        height:200px;
+    }
+    #contenido_segundo{
+        font-size: 10px;
+    }
+    
+    #imagen2{
+        width: 285px;
+        height:200px;
+        background-size: cover;
+    }
+    
+    #destacado{
+        width: 580px;
+        height:135px;
+    }
+    
+    #contenido_destacado{
+        font-size: 18px;
+    }
+    
+    #complementario{
+        width: 580px;
+        height: 130px;   
+    }
+    #imagen_aside {
+        width: 580px;
+        height: 130px;   
+    }
+    
+}
+
+
+@media all and (max-width: 599px){
+    
+    p{
+        font-size: 10px;
+    }
+
+    #marca img{
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+
+    /* contenido*/
+    #contenido_principal{
+        width: 90%;
+        height: auto;  
+    }
+
+    
+    #presentacion2{
+        width: 100%;
+        height:auto;
+        float:none;
+
+    }
+    
+    #texto_contenido {
+        width: 100%;
+        height:auto;
+        float:none;
+        margin-right: 0;
+    }
+
+    
+    #imagen2{
+        width: 100%;
+        height:140px;
+        float:none;
+        margin-bottom:10px;
+        background-position: center;
+        background-size: cover;
+
+    }
+    
+    #destacado{
+        width: 100%;
+        height:auto;
+        float:none;
+ 
+    }
+    
+    #contenido_destacado{
+        font-size: 90%;
+    }
+    
+    #complementario{
+        display: none;
+    
+    }
+ 
+
 }
 
